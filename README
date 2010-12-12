@@ -1,0 +1,15 @@
+= Description
+  A gem that ensures only one instance of your main script is running.
+  In short, there can be only one.
+
+= Synopsis
+  require 'highlander'
+  # Your code here
+
+= Notes
+  Simply requiring the highlander gem ensures that only one instance
+  of that script cannot be started again. If you try to start it again
+  it will raise a RuntimeError.
+
+= Author
+  Daniel Berger

@@ -11,6 +11,10 @@
   of that script cannot be started again. If you try to start it again
   it will raise a RuntimeError.
 
+= Known Issues
+  If you start your program, modify it while its running, and run it again
+  then this library will not work.
+
 = Acknowledgements
   Ara Howard for ideas.
 

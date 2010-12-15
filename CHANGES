@@ -1,2 +1,9 @@
 = 0.1.0: 12-Dec-2010
 * Initial release
+
+= 0.1.1: 15-Dec-2010
+* defined a at_exit hook to close the file locked only if the DATA constant was not provided. 
+  otherwise it is the responsibility of the developer 
+* calling exit not exit! so that the at_exit handlers are called
+* non-zero return status denotes error-condition
+* added unit-test to check that locking and at_exit handlers work. it has some warts. check the TODO in the test file

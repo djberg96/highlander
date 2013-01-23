@@ -1,2 +1,6 @@
-= 0.1.0: 12-Dec-2010
+= 0.1.1 - 13-Jan-2013
+* Fix for 1.9. Moved the BEGIN block outside the module itself
+  to avoid a parse error.
+
+= 0.1.0 - 12-Dec-2010
 * Initial release

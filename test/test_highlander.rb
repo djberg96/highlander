@@ -11,7 +11,7 @@ class TC_Highlander < Test::Unit::TestCase
   end
 
   def test_version
-    assert_equal("0.1.0", Highlander::VERSION)
+    assert_equal("0.1.1", Highlander::VERSION)
   end
 
   def teardown

@@ -2,7 +2,7 @@ require 'rubygems'
 
 Gem::Specification.new do |spec|
   spec.name       = 'highlander'
-  spec.version    = '0.1.1'
+  spec.version    = '0.1.2'
   spec.license    = 'Artistic 2.0'
   spec.author     = 'Daniel J. Berger'
   spec.email      = 'djberg96@gmail.com'
@@ -18,6 +18,4 @@ Gem::Specification.new do |spec|
     process is running. If you try to run the same Ruby program again
     it will raise a RuntimeError instead.
   EOF
-
-  spec.add_development_dependency('test-unit', '>= 2.1.1')
 end

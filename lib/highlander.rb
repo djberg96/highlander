@@ -1,6 +1,6 @@
 module Highlander
   # The version of the highlander library
-  VERSION = '0.1.1'
+  VERSION = '0.1.2'
 end
 
 BEGIN{

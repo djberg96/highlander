@@ -1,3 +1,6 @@
+= 0.1.2 - 13-Oct-2014
+* Updates the gemspec, README and Rakefile.
+
 = 0.1.1 - 13-Jan-2013
 * Fix for 1.9. Moved the BEGIN block outside the module itself
   to avoid a parse error.

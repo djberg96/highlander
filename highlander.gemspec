@@ -11,7 +11,6 @@ Gem::Specification.new do |spec|
   spec.test_files = Dir['test/test*']
   spec.files      = Dir['**/*'].reject{ |f| f.include?('git') }
 
-  spec.rubyforge_project = 'shards'
   spec.extra_rdoc_files  = ['README', 'CHANGES', 'MANIFEST']
 
   spec.description = <<-EOF

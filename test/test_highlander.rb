@@ -8,13 +8,7 @@ require 'test/unit'
 require 'highlander'
 
 class TC_Highlander < Test::Unit::TestCase
-  def setup
-  end
-
   def test_version
-    assert_equal("0.1.2", Highlander::VERSION)
-  end
-
-  def teardown
+    assert_equal("0.2.0", Highlander::VERSION)
   end
 end

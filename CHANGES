@@ -1,3 +1,8 @@
+= 0.2.0 - 3-Oct-2015
+* Changed license to Apache 2.0.
+* Gem related tasks in the Rakefile now assume Rubygems 2.x.
+* Added certs file. This gem is now signed.
+
 = 0.1.2 - 13-Oct-2014
 * Updates the gemspec, README and Rakefile.
 

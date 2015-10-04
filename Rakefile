@@ -7,13 +7,10 @@ CLEAN.include("**/*.gem", "**/*.rbc")
 namespace 'gem' do
   desc 'Create the highlander gem'
   task :create => [:clean] do
+    require 'rubygems/package'
     spec = eval(IO.read('highlander.gemspec'))
-    if Gem::VERSION < "2.0"
-      Gem::Builder.new(spec).build
-    else
-      require 'rubygems/package'
-      Gem::Package.build(spec)
-    end
+    spec.signing_key = File.join(Dir.home, '.ssh', 'gem-private_key.pem')
+    Gem::Package.build(spec)
   end
 
   desc 'Install the highlander gem'

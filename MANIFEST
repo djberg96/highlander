@@ -3,5 +3,6 @@
 * MANIFEST
 * Rakefile
 * highlander.gemspec
+* certs/djberg96_pub.pem
 * lib/highlander.rb
 * test/test_highlander.rb

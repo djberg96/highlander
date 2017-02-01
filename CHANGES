@@ -1,3 +1,6 @@
+= 0.2.1 - 1-February-2017
+* Changed RuntimeError message to fix a missed opportunity
+
 = 0.2.0 - 3-Oct-2015
 * Changed license to Apache 2.0.
 * Gem related tasks in the Rakefile now assume Rubygems 2.x.

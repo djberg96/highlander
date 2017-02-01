@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files  = ['README', 'CHANGES', 'MANIFEST']
 
   spec.description = <<-EOF
-    The highlander spec ensures that only once instance of the current
+    The highlander spec ensures that only one instance of the current
     process is running. If you try to run the same Ruby program again
     it will raise a RuntimeError instead.
   EOF

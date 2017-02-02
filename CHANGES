@@ -1,5 +1,5 @@
 = 0.2.1 - 1-February-2017
-* Changed RuntimeError message to fix a missed opportunity
+* Changed RuntimeError message to fix a missed opportunity.
 * Fixed typo in description.
 * Updated certs file.
 

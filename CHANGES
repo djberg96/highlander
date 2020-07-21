@@ -1,6 +1,7 @@
 == 0.2.2 - 21-Jul-2020
 * Added a LICENSE file as required by the Apache-2.0 license.
 * The VERSION constant is now frozen.
+* Updated certs file again.
 
 == 0.2.1 - 1-Feb-2017
 * Changed RuntimeError message to fix a missed opportunity.

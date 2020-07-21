@@ -9,6 +9,6 @@ require 'highlander'
 
 class TC_Highlander < Test::Unit::TestCase
   def test_version
-    assert_equal("0.2.1", Highlander::VERSION)
+    assert_equal("0.2.2", Highlander::VERSION)
   end
 end

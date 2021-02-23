@@ -6,18 +6,18 @@
 `gem install highlander`
 
 ## Synopsis
-  ```
-  require 'highlander' # This should be the -first- thing in your code.
-  # Your code here
+```ruby
+require 'highlander' # This should be the -first- thing in your code.
+# Your code here
 
-  # Meanwhile, back on the command line...
+# Meanwhile, back on the command line...
 
-  # First attempt, works. Assume it's running in the background.
-  ruby your_script.rb
+# First attempt, works. Assume it's running in the background.
+ruby your_script.rb
 
-  # Second attempt while the first instance is still running, fails.
-  ruby your_script.rb # => RuntimeError 
-  ```
+# Second attempt while the first instance is still running, fails.
+ruby your_script.rb # => RuntimeError 
+```
 
 ## Notes
   Simply requiring the highlander gem ensures that only one instance

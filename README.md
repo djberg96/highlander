@@ -5,6 +5,9 @@
 ## Installation
 `gem install highlander`
 
+## Adding the trusted cert
+`gem cert --add <(curl -Ls https://raw.githubusercontent.com/djberg96/highlander/main/certs/djberg96_pub.pem)`
+
 ## Synopsis
 ```ruby
 require 'highlander' # This should be the -first- thing in your code.

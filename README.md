@@ -6,7 +6,7 @@
 `gem install highlander`
 
 ## Adding the trusted cert
-`gem cert --add <(curl -Ls https://raw.githubusercontent.com/djberg96/highlander/main/certs/djberg96_pub.pem)`
+`gem cert --add <(curl -Ls https://raw.githubusercontent.com/djberg96/highlander/MacLeod/certs/djberg96_pub.pem)`
 
 ## Synopsis
 ```ruby

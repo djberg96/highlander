@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email      = 'djberg96@gmail.com'
   spec.homepage   = 'https://github.com/djberg96/highlander'
   spec.summary    = 'There can be only one! Process, that is.'
-  spec.test_files = Dir['test/test*']
+  spec.test_files = Dir['spec/*.rb']
   spec.files      = Dir['**/*'].reject{ |f| f.include?('git') }
   spec.cert_chain = ['certs/djberg96_pub.pem']
 

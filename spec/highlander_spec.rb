@@ -23,7 +23,7 @@ RSpec.describe Highlander do
   end
 
   example "version" do
-    expect(Highlander::VERSION).to eq('0.2.4')
+    expect(Highlander::VERSION).to eq('0.3.0')
     expect(Highlander::VERSION).to be_frozen
   end
 

@@ -38,7 +38,7 @@ ruby your_script.rb # => RuntimeError
   Apache-2.0
 
 ## Copyright
-  (C) 2010-2020 Daniel J. Berger
+  (C) 2010-2022 Daniel J. Berger
   All Rights Reserved.
 
 ## Warranty

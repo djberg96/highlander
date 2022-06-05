@@ -11,7 +11,7 @@ RSpec.describe Highlander do
 
   before do
     File.open(filename, 'w') do |fh|
-      fh.puts 'require "highlander"'
+      fh.puts 'require_relative "lib/highlander"'
       fh.puts '3.times{ puts "hello"; sleep 1 }'
     end
   end
@@ -26,7 +26,6 @@ RSpec.describe Highlander do
   end
 
   example "attempting to run multiple instances will fail" do
-    Process.spawn("ruby #{filename}")
     pid1 = Process.spawn("ruby #{filename}", :out => IO::NULL)
     pid2 = Process.spawn("ruby #{filename}", :out => IO::NULL)
     status1 = Process.waitpid2(pid1).last

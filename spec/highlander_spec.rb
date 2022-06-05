@@ -26,8 +26,9 @@ RSpec.describe Highlander do
   end
 
   example "attempting to run multiple instances will fail" do
-    pid1 = Process.spawn("ruby #{filename}", :out => IO::NULL)
-    pid2 = Process.spawn("ruby #{filename}", :out => IO::NULL)
+    pid1 = Process.spawn("ruby #{filename}", :err => IO::NULL, :out => IO::NULL)
+    sleep 1 # Make sure pid1 runs first, is there a better way?
+    pid2 = Process.spawn("ruby #{filename}", :err => IO::NULL, :out => IO::NULL)
     status1 = Process.waitpid2(pid1).last
     status2 = Process.waitpid2(pid2).last
 

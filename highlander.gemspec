@@ -21,7 +21,9 @@ Gem::Specification.new do |spec|
     'documentation_uri'     => 'https://github.com/djberg96/highlander/wiki',
     'source_code_uri'       => 'https://github.com/djberg96/highlander',
     'wiki_uri'              => 'https://github.com/djberg96/highlander/wiki',
-    'rubygems_mfa_required' => 'true'
+    'rubygems_mfa_required' => 'true',
+    'github_repo'           => 'https://github.com/djberg96/highlander',
+    'funding_uri'           => 'https://github.com/sponsors/djberg96'
   }
 
   spec.description = <<-EOF
